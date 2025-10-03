@@ -1,6 +1,10 @@
 
-function TellFortune(){
-    let fortune = magicArray[Math.floor(Math.random() * magicArray.length)]
+function TellFortune() {
+    let audio = new Audio("drum-roll-379670.mp3");
+    audio.play();
 
-    document.getElementById("Answers").innerHTML = fortune + '<br>'; 
+    setTimeout(function () {
+        let fortune = magicArray[Math.floor(Math.random() * magicArray.length)];
+        document.getElementById("Answers").innerHTML = fortune + '<br>'; 
+    }, 4000);
 }
