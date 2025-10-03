@@ -1,5 +1,13 @@
 body{
-    background-color: rgb(172, 127, 255);
+    background-color: white;
+}
+
+#PL{
+    position: fixed;
+    height: 250px;
+    z-index: -1;
+    top: 300px;
+    left: 550px;
 }
 
 #M8{
@@ -46,6 +54,6 @@ audio{
     position: fixed;
     background-color: rgb(156, 7, 7);
     height: 20px;
-    left:120px
+    left:120px;
     
 }
