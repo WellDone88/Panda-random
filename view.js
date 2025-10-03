@@ -6,8 +6,6 @@ let HTML = document.getElementById("app").innerHTML = /*HTML*/ `
 
 
 
-<!-- Bakgrunnsmusikk som fungerer ved play -->
-
 <button onclick="TellFortune()">Lets rumble</button>
 <p id="Answers"><p>
 
