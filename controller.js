@@ -6,5 +6,5 @@ function TellFortune() {
     setTimeout(function () {
         let fortune = magicArray[Math.floor(Math.random() * magicArray.length)];
         document.getElementById("Answers").innerHTML = fortune + '<br>'; 
-    }, 4000);
+    }, 3000);
 }
