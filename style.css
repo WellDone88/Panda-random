@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(172, 127, 255);
+}
+
+#M8{
+    position: fixed;
+    height: 500px;
+    max-width: 100%;
+    max-height: auto;
+    top: 250px;
+}
+
+#Answers{
+    position: fixed;
+    top: 62%;
+    left: 180px;
+    font-family: fantasy;
+    font-size: large;
+    color: rgb(155, 5, 5);
+}
+
+h2{
+    color: blue;
+    font-family: cursive;
+}
+
+button{
+    position: fixed;
+    top: 150px;
+    left: 210px;
+    background-color: rgb(80, 68, 50);
+    height: 50px;
+    color: rgb(196, 132, 132);
+    font-family: fantasy;
+    font-size: large;
+    border: 3px solid rgb(97, 97, 100); 
+    cursor: pointer;
+}
+
+button:hover{
+    border: 5px solid rgb(88, 31, 8);
+    box-shadow:0 0 15px 5px rgb(194, 51, 8);
+}
+
+audio{
+    position: fixed;
+    background-color: rgb(156, 7, 7);
+    height: 20px;
+    left:120px
+    
+}
