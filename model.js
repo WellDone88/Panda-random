@@ -1,3 +1,3 @@
 
 let magicArray = 
-['Sondre','Steph', 'Kenneth',' Jean Phillip', 'Mali','En gang til'];
+['Sondre','Steph', 'Kenneth', 'Mali','En gang til'];
